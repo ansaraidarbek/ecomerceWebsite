@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="circle-first circle"></div>
+    <div class="circle-second circle"></div>
+    <div class="circle-third circle"></div>
+    <div class="top-small">
+        <div class="top-first">
+            <div class="top-start" id="mainB">
+                <img src="/logo.jfif" alt="sauryqLogo">
+                <h1>CompanyName</h1>
+            </div>
+            <ul class="top-end">
+                <button id="aboutB">о нас</button>
+                <button id="contactsB">контакты</button>
+            </ul>
+        </div>
+        <div class="top-second" id="topArea">
+            
+        </div>
+    </div>
+    <div class="bottom-small">
+        <div class="bottom-main" id="bottomArea">
+
+        </div>
+        <div class="bottom-takeeasy" id="bottomGroups">
+            <a class="previous" href="#group-0" aria-label="previous" id="previousButton">
+                <svg>
+                    <use href="#previous"></use>
+                </svg>
+            </a>
+            <div class="bottom-content" id="offeredThings">
+                <!-- <div class="media-group" id="group-1">
+                    <div class="media-element">
+                        <img
+                        src="https://images.unsplash.com/photo-1652283795047-f231a1057af8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        alt="">
+                        <span>Полотенца</span>
+                    </div>
+                    <div class="media-element">
+                        <img
+                        src="https://images.unsplash.com/photo-1648737119247-e93f56878edf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                        <span>Подушки</span>
+                    </div>
+                    <div class="media-element">
+                        <img
+                        src="https://images.unsplash.com/photo-1652259461964-9cd8bbfceb22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                        <span>Одеяла</span>
+                    </div>
+                    <div class="media-element">
+                        <img
+                        src="https://images.unsplash.com/photo-1648737119247-e93f56878edf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                        <span>Подушки</span>
+                    </div>
+                    <div class="media-element">
+                        <img
+                        src="https://images.unsplash.com/photo-1648737119247-e93f56878edf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                        <span>Подушки</span>
+                    </div>
+                </div>
+                <div class="media-group" id="group-2">
+                    <div class="media-element">
+                        <img
+                        src="https://images.unsplash.com/photo-1652297141433-f9d60177870d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                        <span>Наволочки</span>
+                    </div>
+                    <div class="media-element">
+                        <img
+                        src="https://images.unsplash.com/photo-1652283795047-f231a1057af8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        alt="">
+                        <span>Простыни</span>
+                    </div>
+                </div> -->
+            </div>
+            <a class="next" href="#group-2" aria-label="next" id="nextButton">
+                <svg>
+                    <use href="#next"></use>
+                </svg>
+            </a>
+            <div class="navigation-indecators" id="navigators">
+            </div>
+        </div>
+    </div>
+    <svg>
+        <symbol id="next" viewBox="0 0 256 512">
+          <path fill="black"
+            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+        </symbol>
+    
+        <symbol id="previous" viewBox="0 0 256 512">
+          <path fill="black"
+            d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+        </symbol>
+
+        <linearGradient id="MyGradient"
+        x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(65)">
+            <stop offset="0%" stop-color="#009EDB" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#BDAE37" stop-opacity="1"/>
+        </linearGradient>
+      </svg>
+</body>
+</html>
