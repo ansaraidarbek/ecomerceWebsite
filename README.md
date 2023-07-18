@@ -1,5 +1,5 @@
 # ecomerceWebsite
-I have created a small ecomerceWebsite with a combination of glassomorphistic designs, with the help of javascript, mysql, and php. 
+I have created a small eCommerce website with a combination of glassomorphistic and neumorphism designs, with the help of javascript, mysql, and php. 
 Here are some snapshots 
 <br />EN snapshots-----------------------------------------------------------------------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/88711794/183348886-543447eb-3d81-44f6-9b34-8664e246f36a.png)
